@@ -1,8 +1,0 @@
-. ~/repos/git/contrib/completion/git-prompt.sh
-
-export GIT_PS2_SHOWDIRTYSTATE=true
-export GIT_PS1_SHOWSTASHSTATE=true
-export GIT_PS1_SHOWUNTRACKEDFILES=true
-export GIT_PS1_SHOWUPSTREAM="auto verbose"
-
-PS1='\[\e]2;$PWD\[\a\]\[\e]1;\]/\W\[\a\]\n[\u@\h] \[\033[1;33m\]\w\a\[\033[0m\]$(__git_ps1 " \[\033[1;32m\](%s)\[\033[0m\]")\n➜ '
